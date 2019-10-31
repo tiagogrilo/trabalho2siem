@@ -1,0 +1,98 @@
+body{
+  margin: 0;
+}
+
+.header{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  position: relative;
+  
+}
+
+.login{
+  margin-right: 0px;
+  align-items: center;
+  justify-content: center; 
+  float: right;
+  height:100%;
+  position: absolute;
+  top: 50%;
+  left: 70%;
+}
+
+.homecontent {
+	align-items: center;
+}
+.homecontent img {
+	display: block;
+	width:100vw; 
+}
+
+.menu {
+	position: relative;
+}
+
+.logo{
+	margin-left: 5px;
+}
+
+.hometexto {
+  position: absolute;
+  top: 50%;
+  margin: auto;
+  left: 0;
+  right: 0;
+  width: 650px;
+  height: 250px;
+  align-items: center;
+  text-align:center;
+    background: rgba(255, 255, 255, 0.35);
+}
+
+.slogan {
+	 display : flex;
+  align-items : center;
+  justify-content: center;
+  height: 250px;
+}
+.slogan h1 {
+	margin: auto;
+	top: 0;
+	bottom: 0;
+
+	margin-right: 0px;	
+	width:650px;
+	left: 0;
+	right: 0;
+	vertical-align: middle;
+
+  font-family: 'Roboto Condensed', sans-serif;font-size: 65px;
+  color: rgb(240, 255, 240);
+}
+
+ul {
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(196 224 178);
+}
+
+li {
+  display: inline-block;
+  float: none;
+   font-family: 'Open Sans', sans-serif;font-size: 16px;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(90 143 57);
+}
